@@ -7,6 +7,7 @@ function PopupWithForm({
   children,
   onClose,
   isOpen,
+  onSubmit
 }) {
   return (
     <div className={`popup popup_${name} ${isOpen ? "popup_open" : " "}`}>
@@ -18,6 +19,7 @@ function PopupWithForm({
           autoComplete="off"
           name={formName}
           noValidate
+          onSubmit={onSubmit}
         >
           {children}
           <button type="submit" className="popup__button">

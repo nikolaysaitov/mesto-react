@@ -27,6 +27,7 @@
 @import url(./blocks/pictures/__like/pictures__like.css);
 @import url(./blocks/pictures/__like/_active/pictures__like_active.css);
 @import url(./blocks/pictures/__delete/pictures__delete.css);
+@import url(./blocks/pictures/__delete/pictures__delete_hidden.css);
 @import url(./blocks/pictures/__like-box/pictures__like-box.css);
 @import url(./blocks/pictures/__like-count/pictures__like-count.css);
 
